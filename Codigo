@@ -1,0 +1,12 @@
+n = input("")
+c = 0
+for i in n:
+    c += 1
+    if i == ',':
+        print('.',end="")
+    elif c % 11== 0:
+        print(i)
+    else:
+        print(i, end='')
+        
+ #O 11 eu usei como exemplo, porque eu sabia que a cada 11 termos seria necessario repetir o provesso, usei para substituir "," por ".", para utilizar em tabelas excel
